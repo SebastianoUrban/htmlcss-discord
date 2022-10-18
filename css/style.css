@@ -204,26 +204,56 @@ main>section:last-child button{
 /* FOOTER */
 footer{
     background-color: #282b2e;
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer h2{
+    color: #8093ee;
+    font-size:  1.2rem;
+    line-height: 2.5rem;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li{
+    line-height: 1.8rem;
 }
 
 /* first-section of footer */
 footer>section:first-child>div{
-    height: 400px;
-    background-color: red;
+    /* height: 400px;
+    background-color: red; */
 }
+
+footer>section:first-child div.social h2{
+    font-size: 2rem;
+}
+
+footer div.lenguage{
+    margin: 1rem 0;
+}
+
+footer div.lenguage img{
+    height: 1.2rem;
+}
+
+
 
 footer>section:first-child>div>div{
     height: 100%;
     width: calc(75% / 4);
-    background-color: #37b1a8;
-    border: 2px dotted white;
+    /* background-color: #37b1a8;
+    border: 2px dotted white; */
 }
 
 footer>section:first-child>div>div:first-child{
     height: 100%;
     width: 25%;
-    background-color: #eb7d82;
-    border: 2px dotted black;
+    /* background-color: #eb7d82;
+    border: 2px dotted black; */
 }
 
 
@@ -232,8 +262,16 @@ footer>section:first-child>div>div:first-child{
 /* last-section of footer */
 footer>section:last-child>div{
     height: 100px;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     justify-content: space-between;
     align-items:center;
+}
+
+footer section:last-child button{
+    color: white;
+    background-color: #909fdf;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border: none;
 }
 
